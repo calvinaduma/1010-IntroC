@@ -1,0 +1,44 @@
+CP SC 1111: Lab 6, Fall 2019
+
+Using an editor, answer the following questions:
+
+NAME: Calvin Aduma
+
+---------
+example.c
+---------
+1) What is the cause of the seg fault in the program called example.c?
+
+	- The for loop had no break and would continue to exectute over and
+	  over. Then, a value in the array tried to be added to sum, however
+	  the value of the array that tried to be added to sum was not a valid
+	  index in the originally initialized array.
+
+--------
+broken.c
+--------
+2) What line in broken.c did the program seg fault on?
+
+	-  Program seg faulted on line 28.
+
+3) What was the value of the variable "count" at the time of the seg fault?
+
+	-  The value of count at the time of the seg fault was 10.
+
+4) What was the value of the variable "i" at the time of the seg fault?
+
+	-  The value of i at the time of the seg fault was 773.
+
+5) What was the value of the variable "search" at the time of the seg fault?
+
+	-  The value of search at the time of the seg fault was 1.
+
+6) What are the values in the "table" array?
+
+	-  {5, 10, 12, 14, 16, 18, 20, 22, 24, 26}
+
+7) what do you think the bug is?
+
+	-  I think the bug is an error in the while statement where it
+	   is missing a comparison for search since only one "=" sign
+	   was used.
